@@ -1,0 +1,51 @@
+body{
+    background-color: #212121;
+    border: 1px solid #848484;
+    box-shadow: 0px 0px 5px #5a5a5a;
+}
+h1,h2, footer{
+    text-align: center;
+    color: #dddddd;
+}
+.container{
+display: flex;
+justify-content: center;
+  align-items: center; 
+}
+ul
+{
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+li
+{
+    flex-basis: 10rem;
+    margin: 5px;
+}
+
+a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #444444;
+    background-color: #eae9e9;
+    border-radius: 10px;
+    width: 100px;
+    height: 2px;
+}
+.DANE{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    justify-content: center;
+    align-items: center;
+}
