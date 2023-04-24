@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Dziennik Praktyk</title>
+        <link rel="stylesheet" href="main2.css">
+        <script src="teachingProgram.js" defer></script>
+        <script src="main.js" defer></script>
+       
+	</head>
+	<body>
+		<header>
+			<h1>Dziennik Praktyk</h1>
+		</header>
+		<main>
+           
+           
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="strona2.html">Dziennik Praktyk</a></li>
+                    <li><a href="strona3.html">Podsumowanie</a></li>
+                </ul>
+            </nav>
+
+
+			<h2>Realizacja materiału</h2>
+            <div class="formularze">
+			<fieldset>
+			  <legend>Informacja o zajęciach</legend>
+			  <label for="date">Wybierz date zajęć<input type="date" /></label>
+			  <label for="dzial">Wybierz dział<select id="dzial"></select>
+			  </label>
+			  <label for="topic">Tematy: <select id="topic">
+                <option value="">
+					Czynności wstępne i szkolenia, struktura i organizacja pracy
+					informatyków
+				  </option>
+				  <option value="">
+					Struktura organizacyjna przedsiębiorstwa i elementy
+					przetwarzania informacji
+				  </option>
+				  <option value="">
+					Konfiguracja sprzętu komputerowego i oprogramowania
+				  </option>
+				</select>
+			  </label>
+			</fieldset>
+			<fieldset id="sypervisor">
+			  <legend>Opiekun</legend>
+			  <label><input type="radio" name="supervisor" />Jerzy Kot</label>
+			  <label><input type="radio" name="supervisor" />Maria Nowak</label>
+			  <label><input type="radio" name="supervisor" />Konstanty Kowal</label>
+			</fieldset>
+			<fieldset>
+                
+			  <legend>Realizacja materiału</legend>
+			  <label>
+				Sprawozdanie:
+				<textarea name="textBox" id="textBox" cols="50" rows="20"></textarea>
+				</label>
+                <label>Zrealizowano:<input type="checkbox" /></label> 
+                <label>Ile godzin:<input type="number" min="1" max="10" /></label> 
+                <label>Stopień opanowania materiału 1 <input type="range" min="1" max="6" /> 6</label>
+			</fieldset>
+            <button type="button" >Dodaj</button>
+            <button type="button">Wyczyść</button>
+        </div>
+        </main>
+	</body>
+</html>

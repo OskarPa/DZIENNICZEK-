@@ -1,10 +1,15 @@
 body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     background-color: #212121;
     border: 1px solid #848484;
     box-shadow: 0px 0px 5px #5a5a5a;
-    width: 70%;
-margin-left: 300px;
-margin-right: 300px;
+    width: 75%;
+    margin-right: 300px;
+    margin-left: 300px;
 }
 h1,h2, footer{
     text-align: center;
@@ -68,29 +73,20 @@ fieldset{
     align-items: center;
     justify-content: center;
  flex-wrap: wrap;
+ box-shadow: 0px 0px 5px #5a5a5a;
 }
 legend{
     color: white;
 }
-.Time{
-width: 100%;
-}
+
 button{
     background-color: lightgreen;
     color: white;
+    text-align: center;
     padding: 5px;
     margin: 10px;
     border-radius: 10px;
 }
 button:hover{
     background-color: green;
-}
-#podsumowanie{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }

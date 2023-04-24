@@ -50,47 +50,20 @@ a:hover{
     background-color: gray;
     color: white;
 }
-label{
-    display: flex;
-    margin: 10px;
-    color: white;
-    width: 45%;
+
+.Notatki{
     text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-input:hover{
-    background-color: #5a5a5a;
-    color:white;
-}
-fieldset{
-    display: flex;
-    align-items: center;
-    justify-content: center;
- flex-wrap: wrap;
-}
-legend{
     color: white;
-}
-.Time{
-width: 100%;
-}
-button{
-    background-color: lightgreen;
-    color: white;
-    padding: 5px;
     margin: 10px;
-    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #848484;
+    box-shadow: 0px 0px 5px #5a5a5a;
 }
-button:hover{
-    background-color: green;
-}
-#podsumowanie{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-    color: white;
+.Ocena{
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #848484;
+    box-shadow: 0px 0px 5px #5a5a5a;
 }

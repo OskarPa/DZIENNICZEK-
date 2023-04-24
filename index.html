@@ -5,6 +5,7 @@
     <title>Dzienniczek Praktyk</title>
     <link rel="stylesheet" href="main.css">
     <script src="teachingProgram.js" defer></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
@@ -17,24 +18,29 @@
 <li><a href="strona3.html">Podsumowanie</a></li>
 </ul>
     </nav>
-<fieldset>
-    <div class="DANE"></div>    
-    <h2>Wprowadź dane ucznia i praktyki</h2>
-        <label for="userName">Imię: <input type="text" id="userName" value="" /></label>
-        <label for="userNazwisko">Nazwisko: <input type="text" id="userNazwisko" value="" /></label>
-        <label for="klasa">Klasa: <input type="text" id="" /></label>
-        <label for="rokszkolny">Rok szkolny: <input type="text" id="" /></label>
-        <label for="odbytej">Odbytej w: <input type="text" id="" /></label>
-        <Fieldset>
+    <div class="form">
+        <h2>Wprowadź dane Praktykanta</h2>
+    </div>
+<fieldset class="form">   
+        <label for="userName" class="form">Imię:<input type="text"  value="" /></label>
+        <label for="userNazwisko" class="form">Nazwisko:<input type="text"  value="" /></label>
+        <label for="klasa" class="form">Klasa:<input type="text"  /></label>
+        <label for="rokszkolny" class="form">Rok szkolny:<input type="text"  /></label>
+        <label for="odbytej" class="form">Odbytej w:<input type="text"  /></label>
+    
+        <fieldset class="Time">
             <legend>Czas trwania</legend>
-            <label for="Datastart">Data rozpoczęcia: <input type="date" id="" /></label>
-            <label for="Dataend">Data zakończenia: <input type="date" id="" /></label>
-        </Fieldset>
-           <button>Zatwierdź</button>
-        </div> 
+            <label for="Datastart" class="form">Data rozpoczęcia:<input type="date"  /></label>
+            <label for="Dataend" class="form">Data zakończenia:<input type="date"  /></label>
         </fieldset>
+           <button onclick="pokazPodsumowanie()">Zatwierdź</button>
+        </fieldset>
+<div id="podsumowanie" style="display: none;">
+<div id="wyniki"></div>
+</div>
         <footer>
 
+            &copy Pałasiński
         </footer>
 
 </body>
